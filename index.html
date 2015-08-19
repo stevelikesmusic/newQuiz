@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Quiz | Steve Gardner</title>
+      <link href='http://fonts.googleapis.com/css?family=Lato|Great+Vibes' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <section>
+        <h1>The Great and Quixotic Quiz</h1>
+        <div id="quiz-container">   
+
+          <form id="quiz">
+            <h2 id="question-heading"></h2>
+            <h3 id="question">Question</h3>
+            
+            <div class="answer" id='choice0'>
+              <div id="over0" class="overlay"></div> 
+            </div>
+            <div class="answer" id='choice1'>
+              <div id="over1" class="overlay"></div> 
+            </div>
+            <div class="answer" id='choice2'>
+              <div id="over2" class="overlay"></div> 
+            </div>
+            <div class="answer" id='choice3'>
+              <div id="over3" class="overlay"></div> 
+            </div>
+            <button id="back" disabled>Last Question</button>
+            <button id="next" disabled>Next Question</button>
+          </form>                
+        </div>
+        <h2 id='thanks'></h2>
+        <button id="reset" name="reset">Again!</button>
+      </section>
+        
+      <script src="quiz.js"></script>
+      
+      
+      <script src="quiz-ui.js"></script>
+      <script src="app.js"></script>
+    </body>
+</html>
